@@ -78,4 +78,4 @@ st.write('DCA Performance: ' + str(round(performance_DCA * 100, 2)) + ' %')
 
 # Visualization for LS
 st.line_chart(df_tog['Portfolio_LS'])
-st.write('Lump Sum Performance: ' + performance_LS * 100)
+st.write('Lump Sum Performance: ' + str(round(performance_LS * 100, 2)) + ' %')
